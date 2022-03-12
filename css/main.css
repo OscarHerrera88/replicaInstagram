@@ -1,0 +1,149 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.flex-instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-instagram{
+    width: 175px;
+    height: 51px;
+    padding-left: 30px;
+    margin: 0px 0px 20px 0px;
+
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+.caja1 {
+    border: 1px solid #dbdbdb;
+    margin-top: 350 381;
+    padding: 40px  20px; 
+}
+.caja2{
+    border: 1px solid #dbdbdb;
+    padding: 20px 40px 20px 40px;
+    border-radius: 1px;
+    text-align: center;
+}
+.separador{
+    text-align: center;
+}
+
+.logo-facebook{
+    height: 17px;
+    width: 17px;
+}
+.icono {
+    padding: 0px 15px 1px;
+    margin-bottom: 5px;
+    
+}
+.olvidaste{
+    text-decoration: none;
+    color: #8e8e8e;
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+
+
+
+.btn-login {
+    background-color: #b2dffc;
+    border: none;
+    color: #ffffff;
+}
+.email,
+.password,
+.btn.login {
+    margin: 3px 0px 3px 0px;
+}
+.btn-login{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+.descarga-app{
+    text-align: center;
+}
+.img-apple{
+    width: 160px;
+    height: 50px;
+}
+.img-playstore{
+    width: 160px;
+    height: 50px;
+}
+
+.footer-instagram{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-instagram div a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #8e8e8e;
+    padding: 5px;
+}
+.idioma{
+    color: #8e8e8e;
+    display: flex;
+    font-size: 12px;
+    padding: 4px;
+    background-color: none;
+    
+}
+.select-idioma{
+    border: none; 
+}
+
+.caja-red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media (min-width: 0px) { 
+    .flex-instagram{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .caja1 {
+        border: 1px solid #dbdbdb;
+        margin-top: 350 381;
+        padding: 40px  20px; 
+    }
+    
+    
+}
+@media (max-width:878px){
+    .flex-instagram{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .caja1 {
+        border: 1px solid #dbdbdb;
+        margin-top: 350 381;
+        padding: 40px  20px; 
+    }
+    
+}
